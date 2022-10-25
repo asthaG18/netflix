@@ -10,4 +10,10 @@ class AppDimen {
   static const double size50 = 50.0;
   static const double size70 = 70.0;
   static const double size100 = 100.0;
+  static const double size140 = 140.0;
+  static const double size200 = 200.0;
+  static const double size250 = 250.0;
+  static const double size280 = 280.0;
+  static const double size300 = 300.0;
+  static const double size350 = 350.0;
 }

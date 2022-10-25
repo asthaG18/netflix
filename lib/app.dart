@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:netflix/res/strings.dart';
-import 'package:netflix/utils/helpers/routes.dart';
+import '../../../res/strings.dart';
+import '../../../utils/helpers/routes.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: AppStrings.appName,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        useMaterial3: true,
       ),
       initialRoute: AppRoutes.splash,
       routes: AppRoutes.getRoutes(),
